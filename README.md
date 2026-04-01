@@ -7,7 +7,7 @@
 You can install the development version from [TestPyPI](https://test.pypi.org/):
 
 ```bash
-pip install -i [https://test.pypi.org/simple/](https://test.pypi.org/simple/) py-regexcite
+pip install -i https://test.pypi.org/simple/ py-regexcite==0.1.0
 ```
 
 Once installed, you can use the strsplit1 function:
@@ -16,6 +16,8 @@ Python
 from py_regexcite import strsplit1
 
 # Extract the first element of a delimited string
+
 result = strsplit1("alfa,bravo,charlie", ",")
 print(result) # Output: 'alfa'
+
 License: This project is licensed under the MIT License.
